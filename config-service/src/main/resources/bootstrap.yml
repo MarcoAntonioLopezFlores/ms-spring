@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: //ruta
-          searchPath: config-data
+          uri: https://github.com/MarcoLF05/ms-spring.git
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
